@@ -81,10 +81,10 @@ class alignment(Workflow):
             "MAPPER": '"/bin/cat"'
         }
 
-        if int(self.init.qualitySystem) != 0:
+        if int(self.init.qualitysystem) != 0:
             if self.analysisDict.has_key('filter'):
                 if self.filter.parameter.rfind('-C') != -1:
-                    self.init.qualitySystem = '0'
+                    self.init.qualitysystem = '0'
                     impl.log.info("quality system is changed to '0'.")
 
         rg_param_tag = '-r'
@@ -94,7 +94,7 @@ class alignment(Workflow):
             subfunc = 'mem'
             if self.init.isSE:
                 subfunc += ' -p '
-            if int(self.init.qualitySystem) == 1:
+            if int(self.init.qualitysystem) == 1:
                 self.alignment.parameter = impl.paramRectify(self.alignment.parameter, '-i', True)
             else:
                 self.alignment.parameter = impl.paramRectify(self.alignment.parameter, '-i', False)
@@ -102,7 +102,7 @@ class alignment(Workflow):
             subfunc = 'filter'
             if self.init.isSE:
                 subfunc += ' --is_se '
-            if int(self.init.qualitySystem) == 1:
+            if int(self.init.qualitysystem) == 1:
                 self.alignment.parameter = impl.paramRectify(self.alignment.parameter, '-i', True)
             else:
                 self.alignment.parameter = impl.paramRectify(self.alignment.parameter, '-i', False)
@@ -111,7 +111,7 @@ class alignment(Workflow):
             subfunc = 'alnpe'
             if self.init.isSE:
                 subfunc = 'alnse'
-            if int(self.init.qualitySystem) == 1:
+            if int(self.init.qualitysystem) == 1:
                 self.alignment.parameter = impl.paramRectify(self.alignment.parameter, '-I', True)
             else:
                 self.alignment.parameter = impl.paramRectify(self.alignment.parameter, '-I', False)

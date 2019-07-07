@@ -4,7 +4,7 @@ import os
 import gzip
 
 
-def getQualitySystem(fqfile, line_num=100):
+def getqualitysystem(fqfile, line_num=100):
     if os.path.splitext(fqfile)[1] == '.gz':
         inputFile = gzip.open(fqfile, 'rt')
     else:
@@ -30,7 +30,7 @@ def getQualitySystem(fqfile, line_num=100):
     elif max <= 'K' and min > ':':
         return -1
     else:
-        print("Cann't check quilitySystem, please set it in user.cfg: init.qualitySystem!")
+        print("Cann't check quilitySystem, please set it in user.cfg: init.qualitysystem!")
         exit(1)
 
 
@@ -38,7 +38,7 @@ def main():
     if len(sys.argv) < 2:
         print("Usage:\n\tpython {} <fq.gz>".format(sys.argv[0]))
         exit(-1)
-    r = getQualitySystem(sys.argv[1])
+    r = getqualitysystem(sys.argv[1])
     if r == 1:
         print("64")
     elif r == 0:

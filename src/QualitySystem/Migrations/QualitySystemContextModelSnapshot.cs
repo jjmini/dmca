@@ -3,12 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using QualitySystem.Models;
+using qualitysystem.Models;
 
-namespace QualitySystem.Migrations
+namespace qualitysystem.Migrations
 {
-    [DbContext(typeof(QualitySystemContext))]
-    partial class QualitySystemContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(qualitysystemContext))]
+    partial class qualitysystemContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -123,7 +123,7 @@ namespace QualitySystem.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("QualitySystem.Models.Component", b =>
+            modelBuilder.Entity("qualitysystem.Models.Component", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
@@ -141,7 +141,7 @@ namespace QualitySystem.Migrations
                     b.ToTable("Components");
                 });
 
-            modelBuilder.Entity("QualitySystem.Models.Device", b =>
+            modelBuilder.Entity("qualitysystem.Models.Device", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
@@ -167,7 +167,7 @@ namespace QualitySystem.Migrations
                     b.ToTable("Devices");
                 });
 
-            modelBuilder.Entity("QualitySystem.Models.Location", b =>
+            modelBuilder.Entity("qualitysystem.Models.Location", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
@@ -179,7 +179,7 @@ namespace QualitySystem.Migrations
                     b.ToTable("Locations");
                 });
 
-            modelBuilder.Entity("QualitySystem.Models.Model", b =>
+            modelBuilder.Entity("qualitysystem.Models.Model", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
@@ -195,7 +195,7 @@ namespace QualitySystem.Migrations
                     b.ToTable("Models");
                 });
 
-            modelBuilder.Entity("QualitySystem.Models.QualitySystemUser", b =>
+            modelBuilder.Entity("qualitysystem.Models.qualitysystemUser", b =>
                 {
                     b.Property<string>("Id");
 
@@ -254,7 +254,7 @@ namespace QualitySystem.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("QualitySystem.Models.QualitySystemUser")
+                    b.HasOne("qualitysystem.Models.qualitysystemUser")
                         .WithMany("Claims")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -262,7 +262,7 @@ namespace QualitySystem.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("QualitySystem.Models.QualitySystemUser")
+                    b.HasOne("qualitysystem.Models.qualitysystemUser")
                         .WithMany("Logins")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -275,28 +275,28 @@ namespace QualitySystem.Migrations
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("QualitySystem.Models.QualitySystemUser")
+                    b.HasOne("qualitysystem.Models.qualitysystemUser")
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("QualitySystem.Models.Component", b =>
+            modelBuilder.Entity("qualitysystem.Models.Component", b =>
                 {
-                    b.HasOne("QualitySystem.Models.Device", "Device")
+                    b.HasOne("qualitysystem.Models.Device", "Device")
                         .WithMany("Components")
                         .HasForeignKey("DeviceID")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("QualitySystem.Models.Device", b =>
+            modelBuilder.Entity("qualitysystem.Models.Device", b =>
                 {
-                    b.HasOne("QualitySystem.Models.Location", "Location")
+                    b.HasOne("qualitysystem.Models.Location", "Location")
                         .WithMany("Devices")
                         .HasForeignKey("LocationID")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("QualitySystem.Models.Model", "Model")
+                    b.HasOne("qualitysystem.Models.Model", "Model")
                         .WithMany("Devices")
                         .HasForeignKey("ModelID")
                         .OnDelete(DeleteBehavior.Cascade);

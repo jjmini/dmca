@@ -3,11 +3,11 @@ package com.glority.qualityserver.service;
 import com.glority.qualityserver.model.Server;
 
 /**
- * Interface for QualitySystem Error Service.
+ * Interface for qualitysystem Error Service.
  * 
  * @author liheping
  * 
  */
-public interface QualitySystemErrorService {
+public interface qualitysystemErrorService {
     void doProcessAlerts(Server server, String detail);
 }

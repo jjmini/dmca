@@ -11,7 +11,7 @@
 	<property name="productinfo.businessUnit" value="Glority" />
 	<property name="productinfo.productName" value="QualityEngine" />
 	<property name="productinfo.productVersion" value="1.0" />
-	<property name="productinfo.svnUrl" value="http://svn.glority.com/projects/QualitySystem/trunk/qualityengine" />
+	<property name="productinfo.svnUrl" value="http://svn.glority.com/projects/qualitysystem/trunk/qualityengine" />
 	<property name="productinfo.svnRevision" value="999" />
 	<property name="buildinfo.jenkinsJob" value="QaulityNightly" />
 	<property name="buildinfo.jenkinsBuildId" value="22" />
@@ -401,7 +401,7 @@
 			<fileset dir="../lib" includes="**/*.jar" />	
 	      </path>
 		  <taskdef name="dump" classname="com.glority.quality.metrics.java.JavaEmmaDumpSourceTask" classpathref="classpath"/>	
-	      <dump emmaTempPath="C:/Sandbox/QualitySystem/qualityengine/target/emma-data/emma-src-tmp" >
+	      <dump emmaTempPath="C:/Sandbox/qualitysystem/qualityengine/target/emma-data/emma-src-tmp" >
 	      </dump>
 	    </target>
 	
@@ -624,7 +624,7 @@
         <fileset dir="../lib" includes="**/*.jar" />    
       </path>
       <taskdef name="svndiff" classname="com.glority.quality.connectors.svn.SVNDiffTask" classpathref="classpath"/> 
-      <svndiff revisionOld="20872" revisionNew="20983" svnURI="http://svn.glority.com/projects/QualitySystem/trunk" failOnError="${failOnError}" username="zhang.miao" password="12121212zmzm">
+      <svndiff revisionOld="20872" revisionNew="20983" svnURI="http://svn.glority.com/projects/qualitysystem/trunk" failOnError="${failOnError}" username="zhang.miao" password="12121212zmzm">
       </svndiff>  
     </target>
     <target name="svn-update">

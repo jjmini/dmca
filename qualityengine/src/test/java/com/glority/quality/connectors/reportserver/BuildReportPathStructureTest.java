@@ -23,13 +23,13 @@ public class BuildReportPathStructureTest {
         baseUrl = "http://quality.glority.com:81";
         brps = new BuildReportPathStructure();
         brps.setBusinessUnit("Glority");
-        brps.setProductName("QualitySystem");
+        brps.setProductName("qualitysystem");
         brps.setBaseURL(baseUrl);
         brps.setJenkinsBuildId("49");
         brps.setSvnRevision("24473");
         brps.setProtocol(BuildReportPathStructure.PROTOCOL_HTTP);
         
-        expectedBasePath = "qsdata/Glority/build/QualitySystem/24473_49";
+        expectedBasePath = "qsdata/Glority/build/qualitysystem/24473_49";
         expectedBaseFullPath =  baseUrl + "/" + expectedBasePath;
     }
     @Test

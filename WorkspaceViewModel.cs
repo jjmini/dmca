@@ -87,7 +87,7 @@
   <meta name="octolytics-dimension-user_id" content="23148183" /><meta name="octolytics-dimension-user_login" content="akaslivau" /><meta name="octolytics-dimension-repository_id" content="118476997" /><meta name="octolytics-dimension-repository_nwo" content="akaslivau/e17025" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="118476997" /><meta name="octolytics-dimension-repository_network_root_nwo" content="akaslivau/e17025" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -402,7 +402,7 @@
     border
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
-    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:23148183,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:51913231,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;}}" data-hydro-click-hmac="abeefde2b436f25e585c89694623a6e74a5133d399a7bda0da5355b835d539b2">
+    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:23148183,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:51913231,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;}}" data-hydro-click-hmac="abeefde2b436f25e585c89694623a6e74a5133d399a7bda0da5355b835d539b2">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -664,7 +664,7 @@
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ayqutE4X/EBhXY8hjLp/SfUibyM1Gu+uWLjipjuwyx65RAjKrbV69EXsi9sgYMwC/4hChs7nbdTeDwCyJYYWEw==" />      <input type="hidden" name="repository_id" value="118476997">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:118476997,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="3da9d628ccceceb026482886c8d924a5ab72f98509e288cdbc81cd45b26014f8" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:118476997,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="3da9d628ccceceb026482886c8d924a5ab72f98509e288cdbc81cd45b26014f8" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -737,7 +737,7 @@
       <div class="js-toggler-container js-social-container starring-container ">
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/akaslivau/e17025/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="eFc8AbLIeJjeheHTEnSc3KUv9rgLbwBs8wiLpacgNPBu6PrVdaAhrGPQB6kArf8EAuN2JqJ1OWJr07F7fabbWg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar akaslivau/e17025" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:118476997,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="8e94acdf2dee6012a86679d2ded208bc515a7264cd0196d5a14c255bb5bb5035" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar akaslivau/e17025" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:118476997,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="8e94acdf2dee6012a86679d2ded208bc515a7264cd0196d5a14c255bb5bb5035" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
 </button>        <a class="social-count js-social-count" href="/akaslivau/e17025/stargazers"
            aria-label="0 users starred this repository">
@@ -746,7 +746,7 @@
 </form>
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/akaslivau/e17025/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ILSXFuKKpDeiFavHwYc/6FG9voMrlbs007I4WbnWj1mo9URicztcDtXHtjo4aztK3sW9qXs6j9xCns4trteyWg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star akaslivau/e17025" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:118476997,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="fefafc6bc4e31ce5be43b6bfe6d4441ad1f9659b2122f06e4caf9ddc7306a1fc" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star akaslivau/e17025" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:118476997,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="fefafc6bc4e31ce5be43b6bfe6d4441ad1f9659b2122f06e4caf9ddc7306a1fc" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
 </button>        <a class="social-count js-social-count" href="/akaslivau/e17025/stargazers"
            aria-label="0 users starred this repository">
@@ -758,7 +758,7 @@
 
   <li>
           <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/akaslivau/e17025/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NGxqhA9SgFhNtQmeuT05erWhQX4wd0Svm/2Eb80yZSDbOSnsokpo5UK6xr0AMXfyvoH2yaAYE1Ooy6dDlLZRnw==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:118476997,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="653b29f1c2fdff7b48f20b41d63d4cd2aff6ce360b188b0623dc2f4c408a835a" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of akaslivau/e17025 to your account" aria-label="Fork your own copy of akaslivau/e17025 to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:118476997,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:594306:7F2485:5D21401A&quot;,&quot;originating_url&quot;:&quot;https://github.com/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="653b29f1c2fdff7b48f20b41d63d4cd2aff6ce360b188b0623dc2f4c408a835a" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of akaslivau/e17025 to your account" aria-label="Fork your own copy of akaslivau/e17025 to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
     <a href="/akaslivau/e17025/network/members" class="social-count"
@@ -893,7 +893,7 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/akaslivau/e17025/blob/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v21:5f11f36b70b509c861f6d881b3aff65f -->
       
@@ -910,7 +910,7 @@
     <span class="css-truncate-target">1978c6136e</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/akaslivau/e17025/ref-list/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/akaslivau/e17025/ref-list/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -924,13 +924,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="QualitySystem/Base/ViewModel/WorkspaceViewModel.cs" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="qualitysystem/Base/ViewModel/WorkspaceViewModel.cs" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/akaslivau/e17025/tree/1978c6136e605b0b856c96f0897ba705e42b6327"><span>e17025</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/akaslivau/e17025/tree/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem"><span>QualitySystem</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/akaslivau/e17025/tree/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base"><span>Base</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/akaslivau/e17025/tree/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel"><span>ViewModel</span></a></span><span class="separator">/</span><strong class="final-path">WorkspaceViewModel.cs</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/akaslivau/e17025/tree/1978c6136e605b0b856c96f0897ba705e42b6327"><span>e17025</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/akaslivau/e17025/tree/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem"><span>qualitysystem</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/akaslivau/e17025/tree/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base"><span>Base</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/akaslivau/e17025/tree/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel"><span>ViewModel</span></a></span><span class="separator">/</span><strong class="final-path">WorkspaceViewModel.cs</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -940,7 +940,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="QualitySystem/Base/ViewModel/WorkspaceViewModel.cs" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="qualitysystem/Base/ViewModel/WorkspaceViewModel.cs" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -948,7 +948,7 @@
 
 
 
-    <include-fragment src="/akaslivau/e17025/contributors/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs" class="Box Box--condensed commit-loader">
+    <include-fragment src="/akaslivau/e17025/contributors/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -975,9 +975,9 @@
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/akaslivau/e17025/raw/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/akaslivau/e17025/blame/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/akaslivau/e17025/commits/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/akaslivau/e17025/raw/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/akaslivau/e17025/blame/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/akaslivau/e17025/commits/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs">History</a>
     </div>
 
 
@@ -1018,7 +1018,7 @@
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">namespace</span> <span class="pl-en">QualitySystem</span>.<span class="pl-en">Base</span>.<span class="pl-en">ViewModel</span></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">namespace</span> <span class="pl-en">qualitysystem</span>.<span class="pl-en">Base</span>.<span class="pl-en">ViewModel</span></td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
@@ -1337,7 +1337,7 @@
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/akaslivau/e17025/blame/1978c6136e605b0b856c96f0897ba705e42b6327/QualitySystem/Base/ViewModel/WorkspaceViewModel.cs">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/akaslivau/e17025/blame/1978c6136e605b0b856c96f0897ba705e42b6327/qualitysystem/Base/ViewModel/WorkspaceViewModel.cs">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/akaslivau/e17025/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>

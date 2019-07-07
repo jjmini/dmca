@@ -78,16 +78,16 @@ class bwafilter(Workflow):
             "MAPPER": '"/bin/cat"'
         }
 
-        if int(self.init.qualitySystem) != 0:
+        if int(self.init.qualitysystem) != 0:
             if self.analysisDict.has_key('filter'):
                 if self.filter.parameter.rfind('-C') != -1:
-                    self.init.qualitySystem = '0'
+                    self.init.qualitysystem = '0'
                     impl.log.info("quality system is changed to '0'.")
 
         subfunc = 'filter'
         if self.init.isSE:
             subfunc += ' --is_se '
-        if int(self.init.qualitySystem) == 1:
+        if int(self.init.qualitysystem) == 1:
             self.bwafilter.parameter = impl.paramRectify(self.bwafilter.parameter, '-i', True)
         else:
             self.bwafilter.parameter = impl.paramRectify(self.bwafilter.parameter, '-i', False)

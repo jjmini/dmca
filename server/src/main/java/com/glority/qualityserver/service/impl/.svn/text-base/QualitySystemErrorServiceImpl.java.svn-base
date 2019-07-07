@@ -5,17 +5,17 @@ import org.springframework.stereotype.Service;
 
 import com.glority.qualityserver.ServerErrorCollector;
 import com.glority.qualityserver.model.Server;
-import com.glority.qualityserver.service.QualitySystemErrorService;
+import com.glority.qualityserver.service.qualitysystemErrorService;
 
 /**
- * QualitySystemErrorServiceImpl.
+ * qualitysystemErrorServiceImpl.
  * 
  * @author liheping
  * 
  */
 @Service
-public class QualitySystemErrorServiceImpl implements QualitySystemErrorService {
-    private static final Logger LOGGER = Logger.getLogger(QualitySystemErrorServiceImpl.class);
+public class qualitysystemErrorServiceImpl implements qualitysystemErrorService {
+    private static final Logger LOGGER = Logger.getLogger(qualitysystemErrorServiceImpl.class);
 
 
     @Override

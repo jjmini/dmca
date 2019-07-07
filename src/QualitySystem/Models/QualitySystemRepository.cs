@@ -4,16 +4,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using QualitySystem.ViewModels;
+using qualitysystem.ViewModels;
 
-namespace QualitySystem.Models
+namespace qualitysystem.Models
 {
-    public class QualitySystemRepository : IQualitySystemRepository
+    public class qualitysystemRepository : IqualitysystemRepository
     {
-        private QualitySystemContext _context;
-        private ILogger<QualitySystemRepository> _logger;
+        private qualitysystemContext _context;
+        private ILogger<qualitysystemRepository> _logger;
 
-        public QualitySystemRepository(QualitySystemContext context, ILogger<QualitySystemRepository> logger)
+        public qualitysystemRepository(qualitysystemContext context, ILogger<qualitysystemRepository> logger)
         {
             _context = context;
             _logger = logger;

@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QualitySystem.Models
+namespace qualitysystem.Models
 {
-    public class QualitySystemContext : IdentityDbContext<QualitySystemUser>
+    public class qualitysystemContext : IdentityDbContext<qualitysystemUser>
     {
-        public QualitySystemContext(DbContextOptions options) : base(options)
+        public qualitysystemContext(DbContextOptions options) : base(options)
         {
 
         }
@@ -23,7 +23,7 @@ namespace QualitySystem.Models
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=QualitySystemDB; Trusted_Connection=true;MultipleActiveResultSets=true;");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=qualitysystemDB; Trusted_Connection=true;MultipleActiveResultSets=true;");
         }
     }
 }

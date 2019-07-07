@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using QualitySystem.ViewModels;
-using QualitySystem.Models;
+using qualitysystem.ViewModels;
+using qualitysystem.Models;
 using Microsoft.Extensions.Logging;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace QualitySystem.Controllers.API
+namespace qualitysystem.Controllers.API
 {
     [Authorize]
     [Route("api/component")]
     public class ComponentController : Controller
     {
         private ILogger<ComponentController> _logger;
-        private IQualitySystemRepository _repository;
+        private IqualitysystemRepository _repository;
 
-        public ComponentController(IQualitySystemRepository repository, ILogger<ComponentController> logger)
+        public ComponentController(IqualitysystemRepository repository, ILogger<ComponentController> logger)
         {
             _repository = repository;
             _logger = logger;

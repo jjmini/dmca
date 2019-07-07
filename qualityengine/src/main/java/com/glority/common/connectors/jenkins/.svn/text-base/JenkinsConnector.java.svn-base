@@ -157,6 +157,6 @@ public class JenkinsConnector {
 
     public static void main(String[] args) throws ConnectorException {
         JenkinsConnector connecter = new JenkinsConnector("http://jenkins.glority.com:8080");
-        connecter.addJenkinsBuild("Glority_QualitySystem_Build", null);
+        connecter.addJenkinsBuild("Glority_qualitysystem_Build", null);
     }
 }

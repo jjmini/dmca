@@ -11,7 +11,7 @@
   </Namespace>
  </Namespaces>
  <Targets>
-  <Target Name="C:\quality system\QualitySystem\scripts\src\Microsoft.Cci.dll">
+  <Target Name="C:\quality system\qualitysystem\scripts\src\Microsoft.Cci.dll">
    <Modules>
     <Module Name="microsoft.cci.dll">
      <Messages>

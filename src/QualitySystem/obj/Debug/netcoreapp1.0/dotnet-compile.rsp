@@ -1,5 +1,5 @@
---temp-output:C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\obj\Debug\netcoreapp1.0\
---out:C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\bin\Debug\netcoreapp1.0\QualitySystem.dll
+--temp-output:C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\obj\Debug\netcoreapp1.0\
+--out:C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\bin\Debug\netcoreapp1.0\qualitysystem.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -8,7 +8,7 @@
 --suppress-warning:CS1705
 --optimize:False
 --emit-entry-point:True
---output-name:QualitySystem
+--output-name:qualitysystem
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -214,29 +214,29 @@
 --reference:C:\Users\alili\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\alili\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\alili\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\obj\Debug\netcoreapp1.0\QualitySystemdotnet-compile.deps.json",QualitySystem.deps.json
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Program.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Startup.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Controllers\HomeController.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Controllers\API\ComponentController.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Controllers\API\DevicesController.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Controllers\API\LocationController.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Controllers\API\ModelController.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Controllers\Auth\AuthController.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Migrations\20161219152744_InitialDB.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Migrations\20161219152744_InitialDB.Designer.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Migrations\QualitySystemContextModelSnapshot.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Models\Component.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Models\Device.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Models\IQualitySystemRepository.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Models\Location.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Models\Model.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Models\QualitySystemContext.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Models\QualitySystemContextSeedData.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Models\QualitySystemRepository.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\Models\QualitySystemUser.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\ViewModels\ComponentViewModel.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\ViewModels\DeviceViewModel.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\ViewModels\LocationViewModel.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\ViewModels\LoginViewModel.cs
-C:\Users\alili\Documents\Visual Studio 2015\Projects\QualitySystem\src\QualitySystem\ViewModels\ModelViewModel.cs
+--resource:"C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\obj\Debug\netcoreapp1.0\qualitysystemdotnet-compile.deps.json",qualitysystem.deps.json
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Program.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Startup.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Controllers\HomeController.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Controllers\API\ComponentController.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Controllers\API\DevicesController.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Controllers\API\LocationController.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Controllers\API\ModelController.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Controllers\Auth\AuthController.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Migrations\20161219152744_InitialDB.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Migrations\20161219152744_InitialDB.Designer.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Migrations\qualitysystemContextModelSnapshot.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Models\Component.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Models\Device.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Models\IqualitysystemRepository.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Models\Location.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Models\Model.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Models\qualitysystemContext.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Models\qualitysystemContextSeedData.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Models\qualitysystemRepository.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\Models\qualitysystemUser.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\ViewModels\ComponentViewModel.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\ViewModels\DeviceViewModel.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\ViewModels\LocationViewModel.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\ViewModels\LoginViewModel.cs
+C:\Users\alili\Documents\Visual Studio 2015\Projects\qualitysystem\src\qualitysystem\ViewModels\ModelViewModel.cs

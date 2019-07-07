@@ -38,7 +38,7 @@ public class BuildMetricDaoHibernateTest extends AbstractBaseTest {
 
     @Before
     public void setUp() {
-        product = productDao.getProduct("QualitySystem");
+        product = productDao.getProduct("qualitysystem");
         List<Build> buildList = buildDao.getBuilds(product.getId(), null, null, Constants.PAGE_SIZE, 1);
 
         for (int i = 0; i < buildList.size(); i++) {

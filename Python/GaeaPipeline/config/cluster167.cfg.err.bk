@@ -20,7 +20,7 @@
 [init]
     gzUploader = GzUpload.jar
     multiUploader = multi_uploader.pl
-    #qualitySystem = 1
+    #qualitysystem = 1
 [Path]
     prgDir = /ifs4/ISDC_BD/GaeaProject/software/Hadoop2:/ifs4/ISDC_BD/GaeaProject/software
     appDir = ""

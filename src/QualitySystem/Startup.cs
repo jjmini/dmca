@@ -7,12 +7,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using QualitySystem.Models;
+using qualitysystem.Models;
 using AutoMapper;
-using QualitySystem.ViewModels;
+using qualitysystem.ViewModels;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-namespace QualitySystem
+namespace qualitysystem
 {
     public class Startup
     {
@@ -40,16 +40,16 @@ namespace QualitySystem
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
 
-            services.AddDbContext<QualitySystemContext>();
+            services.AddDbContext<qualitysystemContext>();
 
-            services.AddScoped<IQualitySystemRepository, QualitySystemRepository>();
+            services.AddScoped<IqualitysystemRepository, qualitysystemRepository>();
 
-            services.AddTransient<QualitySystemContextSeedData>();
+            services.AddTransient<qualitysystemContextSeedData>();
 
-            services.AddIdentity<QualitySystemUser, IdentityRole>(config =>
+            services.AddIdentity<qualitysystemUser, IdentityRole>(config =>
             {
                 config.User.RequireUniqueEmail = true;
-            }).AddEntityFrameworkStores<QualitySystemContext>();
+            }).AddEntityFrameworkStores<qualitysystemContext>();
 
             services.AddLogging();
 
@@ -57,7 +57,7 @@ namespace QualitySystem
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, QualitySystemContextSeedData seeder)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, qualitysystemContextSeedData seeder)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();

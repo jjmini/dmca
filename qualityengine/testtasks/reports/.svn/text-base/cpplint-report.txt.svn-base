@@ -4,8 +4,8 @@
 ..//src\CppParse.cpp error at line no.9 Multi-line string ("...") found.  This lint script doesn't do well with such strings, and may give bogus warnings.  They're ugly and unnecessary, and you should use concatenation instead". readability/multiline_string
 ..//src\CppParse.cpp error at line no.9 Tab found; better to use spaces whitespace/tab
 ..//src\Cpp_grammar_Lexer.h error at line no.0 No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>" legal/copyright
-..//src\Cpp_grammar_Lexer.h error at line no.500 #ifndef header guard has wrong style, please use: C:_QUALITY_SYSTEM_QUALITYSYSTEM_SCRIPTS_SRC_CPP_GRAMMAR_LEXER_H_ build/header_guard
-..//src\Cpp_grammar_Lexer.h error at line no.1579 #endif line should be "#endif  // C:_QUALITY_SYSTEM_QUALITYSYSTEM_SCRIPTS_SRC_CPP_GRAMMAR_LEXER_H_" build/header_guard
+..//src\Cpp_grammar_Lexer.h error at line no.500 #ifndef header guard has wrong style, please use: C:_QUALITY_SYSTEM_qualitysystem_SCRIPTS_SRC_CPP_GRAMMAR_LEXER_H_ build/header_guard
+..//src\Cpp_grammar_Lexer.h error at line no.1579 #endif line should be "#endif  // C:_QUALITY_SYSTEM_qualitysystem_SCRIPTS_SRC_CPP_GRAMMAR_LEXER_H_" build/header_guard
 ..//src\Cpp_grammar_Lexer.h error at line no.500 Tab found; better to use spaces whitespace/tab
 ..//src\Cpp_grammar_Lexer.h error at line no.524 Tab found; better to use spaces whitespace/tab
 ..//src\Cpp_grammar_Lexer.h error at line no.525 Tab found; better to use spaces whitespace/tab
@@ -289,8 +289,8 @@
 ..//src\Cpp_grammar_Lexer.h error at line no.1562 Tab found; better to use spaces whitespace/tab
 ..//src\Cpp_grammar_Lexer.h error at line no.1563 Tab found; better to use spaces whitespace/tab
 ..//src\Cpp_grammar_Parser.h error at line no.0 No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>" legal/copyright
-..//src\Cpp_grammar_Parser.h error at line no.604 #ifndef header guard has wrong style, please use: C:_QUALITY_SYSTEM_QUALITYSYSTEM_SCRIPTS_SRC_CPP_GRAMMAR_PARSER_H_ build/header_guard
-..//src\Cpp_grammar_Parser.h error at line no.1430 #endif line should be "#endif  // C:_QUALITY_SYSTEM_QUALITYSYSTEM_SCRIPTS_SRC_CPP_GRAMMAR_PARSER_H_" build/header_guard
+..//src\Cpp_grammar_Parser.h error at line no.604 #ifndef header guard has wrong style, please use: C:_QUALITY_SYSTEM_qualitysystem_SCRIPTS_SRC_CPP_GRAMMAR_PARSER_H_ build/header_guard
+..//src\Cpp_grammar_Parser.h error at line no.1430 #endif line should be "#endif  // C:_QUALITY_SYSTEM_qualitysystem_SCRIPTS_SRC_CPP_GRAMMAR_PARSER_H_" build/header_guard
 ..//src\Cpp_grammar_Parser.h error at line no.604 Tab found; better to use spaces whitespace/tab
 ..//src\Cpp_grammar_Parser.h error at line no.628 Tab found; better to use spaces whitespace/tab
 ..//src\Cpp_grammar_Parser.h error at line no.629 Tab found; better to use spaces whitespace/tab

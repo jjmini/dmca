@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 
-namespace QualitySystem.Controllers
+namespace qualitysystem.Controllers
 {
     public class HomeController : Controller
     {

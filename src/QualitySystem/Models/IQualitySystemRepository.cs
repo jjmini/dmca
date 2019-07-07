@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using QualitySystem.ViewModels;
+using qualitysystem.ViewModels;
 
-namespace QualitySystem.Models
+namespace qualitysystem.Models
 {
-    public interface IQualitySystemRepository
+    public interface IqualitysystemRepository
     {
         IEnumerable<Device> GetAllDevices();
         void AddNewDevice(Device device);

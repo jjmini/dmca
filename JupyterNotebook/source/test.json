@@ -30,7 +30,7 @@
     "init": {
         "gzUploader": "/ifs4/ISDC_BD/GaeaProject/software/GzUpload.jar", 
         "multiUploader": "/ifs4/ISDC_BD/GaeaProject/software/multi_uploader.pl",
-	"qualitySystem": '0'
+	"qualitysystem": '0'
     }, 
     "filter": {
         "program": "/ifs4/ISDC_BD/lishengkang/work/SoapNuke1.5.2_test/fastqQC/GaeaFastqQC.jar", 

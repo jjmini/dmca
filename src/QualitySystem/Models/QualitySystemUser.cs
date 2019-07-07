@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QualitySystem.Models
+namespace qualitysystem.Models
 {
-    public class QualitySystemUser : IdentityUser
+    public class qualitysystemUser : IdentityUser
     {
     }
 }

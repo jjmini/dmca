@@ -65,7 +65,7 @@ public class BuildDaoTest extends AbstractBaseTest {
     @Before
     public void setUp() {
 
-        product = productDao.getProduct("QualitySystem");
+        product = productDao.getProduct("qualitysystem");
 
         version = versionDao.getVersions(product.getId()).get(0);
 

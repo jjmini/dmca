@@ -1,35 +1,35 @@
 K 25
 svn:wc:ra_dav:version-url
 V 119
-/!svn/ver/35162/projects/QualitySystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer
+/!svn/ver/35162/projects/qualitysystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer
 END
 buildsettings.xml.sample
 K 25
 svn:wc:ra_dav:version-url
 V 144
-/!svn/ver/35162/projects/QualitySystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/buildsettings.xml.sample
+/!svn/ver/35162/projects/qualitysystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/buildsettings.xml.sample
 END
 stylecop.xml
 K 25
 svn:wc:ra_dav:version-url
 V 132
-/!svn/ver/34727/projects/QualitySystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/stylecop.xml
+/!svn/ver/34727/projects/qualitysystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/stylecop.xml
 END
 sca_error_settings.properties
 K 25
 svn:wc:ra_dav:version-url
 V 149
-/!svn/ver/35078/projects/QualitySystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/sca_error_settings.properties
+/!svn/ver/35078/projects/qualitysystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/sca_error_settings.properties
 END
 assembly.xml
 K 25
 svn:wc:ra_dav:version-url
 V 132
-/!svn/ver/34727/projects/QualitySystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/assembly.xml
+/!svn/ver/34727/projects/qualitysystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/assembly.xml
 END
 build.xml
 K 25
 svn:wc:ra_dav:version-url
 V 129
-/!svn/ver/35162/projects/QualitySystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/build.xml
+/!svn/ver/35162/projects/qualitysystem/branches/deliver/1008728_make_report_acceptable/qualityengine/src/main/installer/build.xml
 END

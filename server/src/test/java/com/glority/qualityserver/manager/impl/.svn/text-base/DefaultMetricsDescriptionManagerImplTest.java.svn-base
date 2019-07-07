@@ -97,7 +97,7 @@ public class DefaultMetricsDescriptionManagerImplTest extends AbstractBaseTest {
 //     * Prepare the latest build.
 //     */
 //    private void prepareLatestBuild() {
-//        product = productDao.getProduct("QualitySystem");
+//        product = productDao.getProduct("qualitysystem");
 //        productId = product.getId();
 //
 //        Version version = versionDao.getVersions(product.getId()).get(0);

@@ -28,14 +28,14 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>QualitySystem/Regression.cs at 4ef4d5ec5d93465de956f5afb9bc1c7076b48b48 · Retivykh-Serg/QualitySystem</title>
-    <meta name="description" content="Проект системы контроля допуска многомерного качества - Retivykh-Serg/QualitySystem">
+  <title>qualitysystem/Regression.cs at 4ef4d5ec5d93465de956f5afb9bc1c7076b48b48 · Retivykh-Serg/qualitysystem</title>
+    <meta name="description" content="Проект системы контроля допуска многомерного качества - Retivykh-Serg/qualitysystem">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
-    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/9987049?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="Retivykh-Serg/QualitySystem" /><meta name="twitter:description" content="Проект системы контроля допуска многомерного качества - Retivykh-Serg/QualitySystem" />
-    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/9987049?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Retivykh-Serg/QualitySystem" /><meta property="og:url" content="https://github.com/Retivykh-Serg/QualitySystem" /><meta property="og:description" content="Проект системы контроля допуска многомерного качества - Retivykh-Serg/QualitySystem" />
+    <meta name="twitter:image:src" content="https://avatars3.githubusercontent.com/u/9987049?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="Retivykh-Serg/qualitysystem" /><meta name="twitter:description" content="Проект системы контроля допуска многомерного качества - Retivykh-Serg/qualitysystem" />
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/9987049?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Retivykh-Serg/qualitysystem" /><meta property="og:url" content="https://github.com/Retivykh-Serg/qualitysystem" /><meta property="og:description" content="Проект системы контроля допуска многомерного качества - Retivykh-Serg/qualitysystem" />
 
   <link rel="assets" href="https://github.githubassets.com/">
   <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDE4NTU3NTY3OmM1YzVkMWFjZTUwODIxNTA2YjEyYTY1Mjc0YWYxODUzNmNiNjg1NTljODljNzVmYjc1MTk1OGVlZmFhMmMwNTE=--2a8ff5ea1956986a0d01e2e03a4dbecb557dd54a">
@@ -80,14 +80,14 @@
   <meta http-equiv="x-pjax-version" content="41b9ff63b8f4ee38c8cca1ecdadf550e">
   
 
-      <link href="https://github.com/Retivykh-Serg/QualitySystem/commits/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48.atom" rel="alternate" title="Recent Commits to QualitySystem:4ef4d5ec5d93465de956f5afb9bc1c7076b48b48" type="application/atom+xml">
+      <link href="https://github.com/Retivykh-Serg/qualitysystem/commits/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48.atom" rel="alternate" title="Recent Commits to qualitysystem:4ef4d5ec5d93465de956f5afb9bc1c7076b48b48" type="application/atom+xml">
 
-  <meta name="go-import" content="github.com/Retivykh-Serg/QualitySystem git https://github.com/Retivykh-Serg/QualitySystem.git">
+  <meta name="go-import" content="github.com/Retivykh-Serg/qualitysystem git https://github.com/Retivykh-Serg/qualitysystem.git">
 
-  <meta name="octolytics-dimension-user_id" content="9987049" /><meta name="octolytics-dimension-user_login" content="Retivykh-Serg" /><meta name="octolytics-dimension-repository_id" content="39856309" /><meta name="octolytics-dimension-repository_nwo" content="Retivykh-Serg/QualitySystem" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="39856309" /><meta name="octolytics-dimension-repository_network_root_nwo" content="Retivykh-Serg/QualitySystem" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+  <meta name="octolytics-dimension-user_id" content="9987049" /><meta name="octolytics-dimension-user_login" content="Retivykh-Serg" /><meta name="octolytics-dimension-repository_id" content="39856309" /><meta name="octolytics-dimension-repository_nwo" content="Retivykh-Serg/qualitysystem" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="39856309" /><meta name="octolytics-dimension-repository_network_root_nwo" content="Retivykh-Serg/qualitysystem" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/Retivykh-Serg/QualitySystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/Retivykh-Serg/qualitysystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -143,7 +143,7 @@
   aria-expanded="false"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="39856309" data-scoped-search-url="/Retivykh-Serg/QualitySystem/search" data-unscoped-search-url="/search" action="/Retivykh-Serg/QualitySystem/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="39856309" data-scoped-search-url="/Retivykh-Serg/qualitysystem/search" data-unscoped-search-url="/search" action="/Retivykh-Serg/qualitysystem/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
       <label class="form-control input-sm header-search-wrapper p-0 header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
         <input type="text"
           class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
@@ -322,7 +322,7 @@
               <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
     <a class="Header-link" href="/Retivykh-Serg">Retivykh-Serg</a>
     /
-    <a class="Header-link" href="/Retivykh-Serg/QualitySystem">QualitySystem</a>
+    <a class="Header-link" href="/Retivykh-Serg/qualitysystem">qualitysystem</a>
 
 </div>
     </div>
@@ -370,9 +370,9 @@
 
   <div role="none" class="dropdown-divider"></div>
   <div class="dropdown-header">
-    <span title="Retivykh-Serg/QualitySystem">This repository</span>
+    <span title="Retivykh-Serg/qualitysystem">This repository</span>
   </div>
-    <a role="menuitem" class="dropdown-item" href="/Retivykh-Serg/QualitySystem/issues/new" data-ga-click="Header, create new issue" data-skip-pjax>
+    <a role="menuitem" class="dropdown-item" href="/Retivykh-Serg/qualitysystem/issues/new" data-ga-click="Header, create new issue" data-skip-pjax>
       New issue
     </a>
 
@@ -402,7 +402,7 @@
     border
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
-    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:9987049,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:51913231,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/QualitySystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;}}" data-hydro-click-hmac="0b8e344a35684db2ba0666f729d65a18e59fc6845d766713ddf8d8a94379c5ce">
+    <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit " aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:9987049,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:51913231,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/qualitysystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;}}" data-hydro-click-hmac="0b8e344a35684db2ba0666f729d65a18e59fc6845d766713ddf8d8a94379c5ce">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -655,7 +655,7 @@
 
 
     <li hidden>
-      <include-fragment src="/Retivykh-Serg/QualitySystem/used_by_count">
+      <include-fragment src="/Retivykh-Serg/qualitysystem/used_by_count">
 </include-fragment>
     </li>
 
@@ -664,7 +664,7 @@
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3PBkwzOEWZrj8egvhZyt+uSNcvujEPQq7ugGKEHnVk4OnsK90CbfLsdA7NUpRh6x7idfXljtdlBoX+Q8X9GLQw==" />      <input type="hidden" name="repository_id" value="39856309">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:39856309,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/QualitySystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="558853e82a97619425bca310327b1bf6dd01a6ef117278838452966534252799" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:39856309,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/qualitysystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="558853e82a97619425bca310327b1bf6dd01a6ef117278838452966534252799" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -726,7 +726,7 @@
         </details-menu>
       </details>
         <a class="social-count js-social-count"
-          href="/Retivykh-Serg/QualitySystem/watchers"
+          href="/Retivykh-Serg/qualitysystem/watchers"
           aria-label="1 user is watching this repository">
           1
         </a>
@@ -735,20 +735,20 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/Retivykh-Serg/QualitySystem/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="liFV0zZrCtctfL3IlOpxAJ/n1DCjDaP2XOoj/p/GfIPWVMLYcZslcvjbNOCGw51uK81muk5tqwfS81kH9Ua2xw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/Retivykh-Serg/qualitysystem/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="liFV0zZrCtctfL3IlOpxAJ/n1DCjDaP2XOoj/p/GfIPWVMLYcZslcvjbNOCGw51uK81muk5tqwfS81kH9Ua2xw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Retivykh-Serg/QualitySystem" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:39856309,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/QualitySystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="02ee66979e5252c3555c388de9ccfe69892b9f034b94b8f1e159dc0c58061f13" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Retivykh-Serg/qualitysystem" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:39856309,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/qualitysystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="02ee66979e5252c3555c388de9ccfe69892b9f034b94b8f1e159dc0c58061f13" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
-</button>        <a class="social-count js-social-count" href="/Retivykh-Serg/QualitySystem/stargazers"
+</button>        <a class="social-count js-social-count" href="/Retivykh-Serg/qualitysystem/stargazers"
            aria-label="0 users starred this repository">
            0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/Retivykh-Serg/QualitySystem/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Kp4XHrQ8mFTX0leuiUpKjX8CXRL8H2Ry35k/6dXclKxaWfUg1gjVeHwGO6nBihBtX2TgiveZ1LoZVB16YiYxHw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/Retivykh-Serg/qualitysystem/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Kp4XHrQ8mFTX0leuiUpKjX8CXRL8H2Ry35k/6dXclKxaWfUg1gjVeHwGO6nBihBtX2TgiveZ1LoZVB16YiYxHw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Retivykh-Serg/QualitySystem" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:39856309,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/QualitySystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="7cad73d558ead1269a35482f8f4a5eacc27e691ad660660ac2f4a8b1661aab6f" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Retivykh-Serg/qualitysystem" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:39856309,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/qualitysystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="7cad73d558ead1269a35482f8f4a5eacc27e691ad660660ac2f4a8b1661aab6f" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
-</button>        <a class="social-count js-social-count" href="/Retivykh-Serg/QualitySystem/stargazers"
+</button>        <a class="social-count js-social-count" href="/Retivykh-Serg/qualitysystem/stargazers"
            aria-label="0 users starred this repository">
           0
         </a>
@@ -757,11 +757,11 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/Retivykh-Serg/QualitySystem/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2GlVDGiRawoF0GWqmD26yABf7U56yqvF+5oFaee4jD8M/0ApMScLc2JYs6RLTLD9cjhNlXnj9+HKiaZMZWai4Q==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:39856309,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/QualitySystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="2302aabf25490b3d90baeab41825401af165902c633366f93964f60b0ffba378" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of Retivykh-Serg/QualitySystem to your account" aria-label="Fork your own copy of Retivykh-Serg/QualitySystem to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/Retivykh-Serg/qualitysystem/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2GlVDGiRawoF0GWqmD26yABf7U56yqvF+5oFaee4jD8M/0ApMScLc2JYs6RLTLD9cjhNlXnj9+HKiaZMZWai4Q==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:39856309,&quot;client_id&quot;:&quot;146372599.1520983990&quot;,&quot;originating_request_id&quot;:&quot;48E6:4E6C:5946B2:7F2C33:5D21403E&quot;,&quot;originating_url&quot;:&quot;https://github.com/Retivykh-Serg/qualitysystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs&quot;,&quot;referrer&quot;:&quot;https://github.com/search?p=96&amp;q=qualitysystem&amp;type=Code&quot;,&quot;user_id&quot;:51913231}}" data-hydro-click-hmac="2302aabf25490b3d90baeab41825401af165902c633366f93964f60b0ffba378" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of Retivykh-Serg/qualitysystem to your account" aria-label="Fork your own copy of Retivykh-Serg/qualitysystem to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
-    <a href="/Retivykh-Serg/QualitySystem/network/members" class="social-count"
+    <a href="/Retivykh-Serg/qualitysystem/network/members" class="social-count"
        aria-label="0 users forked this repository">
       0
     </a>
@@ -772,7 +772,7 @@
     <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
   <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=9987049" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Retivykh-Serg">Retivykh-Serg</a></span><!--
 --><span class="path-divider">/</span><!--
---><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/Retivykh-Serg/QualitySystem">QualitySystem</a></strong>
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/Retivykh-Serg/qualitysystem">qualitysystem</a></strong>
   
 
 </h1>
@@ -786,14 +786,14 @@
      data-pjax="#js-repo-pjax-container">
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /Retivykh-Serg/QualitySystem" href="/Retivykh-Serg/QualitySystem">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /Retivykh-Serg/qualitysystem" href="/Retivykh-Serg/qualitysystem">
       <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
       <span itemprop="name">Code</span>
       <meta itemprop="position" content="1">
 </a>  </span>
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /Retivykh-Serg/QualitySystem/issues" href="/Retivykh-Serg/QualitySystem/issues">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /Retivykh-Serg/qualitysystem/issues" href="/Retivykh-Serg/qualitysystem/issues">
         <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
         <span class="Counter">0</span>
@@ -801,7 +801,7 @@
 </a>    </span>
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /Retivykh-Serg/QualitySystem/pulls" href="/Retivykh-Serg/QualitySystem/pulls">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /Retivykh-Serg/qualitysystem/pulls" href="/Retivykh-Serg/qualitysystem/pulls">
       <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
       <span class="Counter">0</span>
@@ -809,21 +809,21 @@
 </a>  </span>
 
 
-    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /Retivykh-Serg/QualitySystem/projects" href="/Retivykh-Serg/QualitySystem/projects">
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /Retivykh-Serg/qualitysystem/projects" href="/Retivykh-Serg/qualitysystem/projects">
       <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
       Projects
       <span class="Counter" >0</span>
 </a>
 
-    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /Retivykh-Serg/QualitySystem/wiki" href="/Retivykh-Serg/QualitySystem/wiki">
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /Retivykh-Serg/qualitysystem/wiki" href="/Retivykh-Serg/qualitysystem/wiki">
       <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
       Wiki
 </a>
-    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy /Retivykh-Serg/QualitySystem/security/advisories" href="/Retivykh-Serg/QualitySystem/security/advisories">
+    <a data-skip-pjax="true" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy /Retivykh-Serg/qualitysystem/security/advisories" href="/Retivykh-Serg/qualitysystem/security/advisories">
       <svg class="octicon octicon-shield" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 2l7-2 7 2v6.02C14 12.69 8.69 16 7 16c-1.69 0-7-3.31-7-7.98V2zm1 .75L7 1l6 1.75v5.268C13 12.104 8.449 15 7 15c-1.449 0-6-2.896-6-6.982V2.75zm1 .75L7 2v12c-1.207 0-5-2.482-5-5.985V3.5z"/></svg>
       Security
 </a>
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /Retivykh-Serg/QualitySystem/pulse" href="/Retivykh-Serg/QualitySystem/pulse">
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse people /Retivykh-Serg/qualitysystem/pulse" href="/Retivykh-Serg/qualitysystem/pulse">
       <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
       Insights
 </a>
@@ -836,47 +836,47 @@
        itemtype="http://schema.org/BreadcrumbList">
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /Retivykh-Serg/QualitySystem" href="/Retivykh-Serg/QualitySystem">
+      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /Retivykh-Serg/qualitysystem" href="/Retivykh-Serg/qualitysystem">
         <span itemprop="name">Code</span>
         <meta itemprop="position" content="1">
 </a>    </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /Retivykh-Serg/QualitySystem/issues" href="/Retivykh-Serg/QualitySystem/issues">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /Retivykh-Serg/qualitysystem/issues" href="/Retivykh-Serg/qualitysystem/issues">
           <span itemprop="name">Issues</span>
           <span class="Counter">0</span>
           <meta itemprop="position" content="2">
 </a>      </span>
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /Retivykh-Serg/QualitySystem/pulls" href="/Retivykh-Serg/QualitySystem/pulls">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /Retivykh-Serg/qualitysystem/pulls" href="/Retivykh-Serg/qualitysystem/pulls">
         <span itemprop="name">Pull requests</span>
         <span class="Counter">0</span>
         <meta itemprop="position" content="3">
 </a>    </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /Retivykh-Serg/QualitySystem/projects" href="/Retivykh-Serg/QualitySystem/projects">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /Retivykh-Serg/qualitysystem/projects" href="/Retivykh-Serg/qualitysystem/projects">
           <span itemprop="name">Projects</span>
           <span class="Counter">0</span>
           <meta itemprop="position" content="4">
 </a>      </span>
 
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_wiki /Retivykh-Serg/QualitySystem/wiki" href="/Retivykh-Serg/QualitySystem/wiki">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_wiki /Retivykh-Serg/qualitysystem/wiki" href="/Retivykh-Serg/qualitysystem/wiki">
           <span itemprop="name">Wiki</span>
           <meta itemprop="position" content="5">
 </a>      </span>
 
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy /Retivykh-Serg/QualitySystem/security/advisories" href="/Retivykh-Serg/QualitySystem/security/advisories">
+      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security alerts policy /Retivykh-Serg/qualitysystem/security/advisories" href="/Retivykh-Serg/qualitysystem/security/advisories">
         <span itemprop="name">Security</span>
         <meta itemprop="position" content="6">
 </a>
-      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /Retivykh-Serg/QualitySystem/pulse" href="/Retivykh-Serg/QualitySystem/pulse">
+      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /Retivykh-Serg/qualitysystem/pulse" href="/Retivykh-Serg/qualitysystem/pulse">
         Pulse
 </a>
       <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="community /Retivykh-Serg/QualitySystem/community" href="/Retivykh-Serg/QualitySystem/community">
+        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="community /Retivykh-Serg/qualitysystem/community" href="/Retivykh-Serg/qualitysystem/community">
           Community
 </a>      </span>
 
@@ -893,7 +893,7 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Retivykh-Serg/QualitySystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Retivykh-Serg/qualitysystem/blob/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v21:1e6b863663fffbd60877555932835809 -->
       
@@ -910,7 +910,7 @@
     <span class="css-truncate-target">4ef4d5ec5d</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/Retivykh-Serg/QualitySystem/ref-list/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/Retivykh-Serg/qualitysystem/ref-list/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -918,7 +918,7 @@
 </details>
 
         <div class="BtnGroup flex-shrink-0 d-md-none">
-          <a href="/Retivykh-Serg/QualitySystem/find/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48"
+          <a href="/Retivykh-Serg/qualitysystem/find/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48"
                 class="js-pjax-capture-input btn btn-sm BtnGroup-item"
                 data-pjax
                 data-hotkey="t">
@@ -930,11 +930,11 @@
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Retivykh-Serg/QualitySystem/tree/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48"><span>QualitySystem</span></a></span></span><span class="separator">/</span><strong class="final-path">Regression.cs</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/Retivykh-Serg/qualitysystem/tree/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48"><span>qualitysystem</span></a></span></span><span class="separator">/</span><strong class="final-path">Regression.cs</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
-        <a href="/Retivykh-Serg/QualitySystem/find/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48"
+        <a href="/Retivykh-Serg/qualitysystem/find/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48"
               class="js-pjax-capture-input btn btn-sm BtnGroup-item"
               data-pjax
               data-hotkey="t">
@@ -948,7 +948,7 @@
 
 
 
-    <include-fragment src="/Retivykh-Serg/QualitySystem/contributors/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs" class="Box Box--condensed commit-loader">
+    <include-fragment src="/Retivykh-Serg/qualitysystem/contributors/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -975,9 +975,9 @@
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Retivykh-Serg/QualitySystem/raw/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Retivykh-Serg/QualitySystem/blame/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Retivykh-Serg/QualitySystem/commits/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Retivykh-Serg/qualitysystem/raw/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Retivykh-Serg/qualitysystem/blame/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Retivykh-Serg/qualitysystem/commits/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">History</a>
     </div>
 
 
@@ -1026,7 +1026,7 @@
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">namespace</span> <span class="pl-en">QualitySystem</span></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">namespace</span> <span class="pl-en">qualitysystem</span></td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
@@ -1535,8 +1535,8 @@
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/Retivykh-Serg/QualitySystem/blame/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">View git blame</a></li>
-          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/Retivykh-Serg/QualitySystem/issues/new">Reference in new issue</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/Retivykh-Serg/qualitysystem/blame/4ef4d5ec5d93465de956f5afb9bc1c7076b48b48/Regression.cs">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/Retivykh-Serg/qualitysystem/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
   </details>

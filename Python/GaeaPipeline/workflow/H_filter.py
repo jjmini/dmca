@@ -20,9 +20,9 @@ class filter(Workflow):
         
         #extend program path
         self.filter.program = self.expath('filter.program')
-        self.filter.parameter = impl.paramCheck(True,self.filter.parameter,'-Q',str(self.init.qualitySystem))
+        self.filter.parameter = impl.paramCheck(True,self.filter.parameter,'-Q',str(self.init.qualitysystem))
         
-        if int(self.init.qualitySystem) == 0:
+        if int(self.init.qualitysystem) == 0:
             self.filter.parameter = impl.paramCheck(False,self.filter.parameter,'-C')
         
         #global param

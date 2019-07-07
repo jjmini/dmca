@@ -18,7 +18,7 @@ class init(Workflow):
     INIT.init.bgzip = 'bgzip'
     INIT.init.perl = 'perl'
     INIT.init.samtools = 'samtools'
-    INIT.init.qualitySystem = ''
+    INIT.init.qualitysystem = ''
     INIT.init.check_log = '%s' % os.path.join(os.environ['GAEA_HOME'], 'bin', 'check_log.pl')
     INIT.init.check_state_param = ''
     INIT.hadoop.ishadoop2 = False
@@ -32,12 +32,12 @@ class init(Workflow):
         for sample_name in sampleInfo:
             for dataTag in sampleInfo[sample_name]:
                 fq = sampleInfo[sample_name][dataTag]['fq1']
-                self.init.qualitySystem = qualitySystem.getQualitySystem(fq)
-                if self.init.qualitySystem != '-1':
-                    return self.init.qualitySystem
+                self.init.qualitysystem = qualitysystem.getqualitysystem(fq)
+                if self.init.qualitysystem != '-1':
+                    return self.init.qualitysystem
 
-        if self.init.qualitySystem == '-1':
-            raise RuntimeError('qualitySystem is wrong, the value is -1')
+        if self.init.qualitysystem == '-1':
+            raise RuntimeError('qualitysystem is wrong, the value is -1')
 
     def run(self, impl, sampleInfo):
         mode = self.option.mode
@@ -131,10 +131,10 @@ class init(Workflow):
 
         result.output = output
 
-        if self.init.qualitySystem == '':
+        if self.init.qualitysystem == '':
             self.check_qs(sampleInfo)
-            print "[INFO   ]  -- qualitySystem is %s (autocheck)--" % self.init.qualitySystem
+            print "[INFO   ]  -- qualitysystem is %s (autocheck)--" % self.init.qualitysystem
         else:
-            print "[INFO   ]  -- qualitySystem is %s --" % self.init.qualitySystem
+            print "[INFO   ]  -- qualitysystem is %s --" % self.init.qualitysystem
 
         return result

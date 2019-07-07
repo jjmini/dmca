@@ -27,7 +27,7 @@ import com.glority.qualityserver.model.Product;
 import com.glority.qualityserver.model.Server;
 import com.glority.qualityserver.service.MailService;
 import com.glority.qualityserver.service.MetricEngineDBService;
-import com.glority.qualityserver.service.QualitySystemErrorService;
+import com.glority.qualityserver.service.qualitysystemErrorService;
 import com.glority.qualityserver.service.SchedulerService;
 
 /**
@@ -53,7 +53,7 @@ public class SchedulerServiceImpl extends DBBaseService implements SchedulerServ
     private MailService mailService;
 
     @Autowired
-    private QualitySystemErrorService qsErrorService;
+    private qualitysystemErrorService qsErrorService;
 
     public List<Product> getAllProducts() {
 

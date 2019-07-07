@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QualitySystem.Models
+namespace qualitysystem.Models
 {
     public enum type { PowerSupply, MotherBoared, HardDiskDrive, RAM, CDROMDrive, FloppyDrive, Monitor, Keyboared, Mouse}
     public class Component

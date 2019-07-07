@@ -1,5 +1,5 @@
 SET enginePath=D:\QualityEngine
-SET serverPath=D:\NewQualitySystem
+SET serverPath=D:\Newqualitysystem
 
 DEL %serverPath%\lib\qualityengine-1.0.jar
 CALL ant -buildfile %enginePath%\build.xml

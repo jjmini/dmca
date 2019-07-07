@@ -56,7 +56,7 @@ BEGIN
 DELIMITER ;
 
 
-call updateProductRole('QualitySystem','xu.qingsong@glority.com,xu.xiaodong@glority.com',2,'xu.xiaodong@glority.com');
+call updateProductRole('qualitysystem','xu.qingsong@glority.com,xu.xiaodong@glority.com',2,'xu.xiaodong@glority.com');
 call updateProductRole('TimeTrackingServer','pan.yue@glority.com,xu.xiaodong@glority.com',2,'xu.xiaodong@glority.com');
 call updateProductRole('JavaZipSendServer','chen.mingquan@glority.com',1,'xu.weifeng@glority.com');
 call updateProductRole('ESignature','xu.qingsong@glority.com',1,'xu.qingsong@glority.com');

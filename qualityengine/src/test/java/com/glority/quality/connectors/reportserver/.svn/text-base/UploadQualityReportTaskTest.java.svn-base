@@ -61,7 +61,7 @@ public class UploadQualityReportTaskTest {
         writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
                 + "<qaulityreport><productinfo><businessunit>Glority</businessunit>"
                 + "<productname>QualityEngine</productname><productversion>1.0</productversion>"
-                + "<svnurl>http://svn.glority.com/projects/QualitySystem/trunk/qualityengine</svnurl>"
+                + "<svnurl>http://svn.glority.com/projects/qualitysystem/trunk/qualityengine</svnurl>"
                 + "<svnrevision>999</svnrevision></productinfo><buildtestinfo>"
                 + "<certification/><timestamp/></buildtestinfo></qaulityreport>");
         writer.flush();

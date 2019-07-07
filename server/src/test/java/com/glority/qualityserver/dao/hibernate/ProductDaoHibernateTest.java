@@ -16,6 +16,6 @@ public class ProductDaoHibernateTest extends AbstractBaseTest {
     @Test
     public void testGetProduct() {
         assertTrue(product.getProduct("") == null);
-        assertEquals("Quality System", String.valueOf(product.getProduct("QualitySystem").getDisplayName()));
+        assertEquals("Quality System", String.valueOf(product.getProduct("qualitysystem").getDisplayName()));
     }
 }

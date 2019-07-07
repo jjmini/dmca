@@ -2,7 +2,7 @@
 
 dir
 35822
-http://svn.glority.com/projects/QualitySystem/branches/deliver/1008728_make_report_acceptable/server/src/main/java/com/glority/qualityserver/service/impl
+http://svn.glority.com/projects/qualitysystem/branches/deliver/1008728_make_report_acceptable/server/src/main/java/com/glority/qualityserver/service/impl
 http://svn.glority.com
 
 
@@ -366,7 +366,7 @@ li.heping
 
 9565
 
-QualitySystemErrorServiceImpl.java
+qualitysystemErrorServiceImpl.java
 file
 
 

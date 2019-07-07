@@ -5,15 +5,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QualitySystem.Models
+namespace qualitysystem.Models
 {
-    public class QualitySystemContextSeedData
+    public class qualitysystemContextSeedData
     {
-        private QualitySystemContext _context;
-        private ILogger<QualitySystemContextSeedData> _logger;
-        private UserManager<QualitySystemUser> _userManager;
+        private qualitysystemContext _context;
+        private ILogger<qualitysystemContextSeedData> _logger;
+        private UserManager<qualitysystemUser> _userManager;
 
-        public QualitySystemContextSeedData(QualitySystemContext context, ILogger<QualitySystemContextSeedData> logger, UserManager<QualitySystemUser> userManager)
+        public qualitysystemContextSeedData(qualitysystemContext context, ILogger<qualitysystemContextSeedData> logger, UserManager<qualitysystemUser> userManager)
         {
             _context = context;
             _logger = logger;
@@ -24,7 +24,7 @@ namespace QualitySystem.Models
         {
             if (!_context.Users.Any())
             {
-                var user = new QualitySystemUser()
+                var user = new qualitysystemUser()
                 {
                     UserName = "aliasmael",
                     Email = "alilion22@ymail.com"

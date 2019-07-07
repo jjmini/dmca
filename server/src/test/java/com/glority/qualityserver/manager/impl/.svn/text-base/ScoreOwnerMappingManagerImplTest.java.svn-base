@@ -44,7 +44,7 @@ public class ScoreOwnerMappingManagerImplTest extends AbstractBaseTest {
     public void testGetScoreOwner() {
         String childScoreName = "JAVA MI";
         String parentScoreName = "BUILD SCORE";
-        Product product = productDao.getProduct("QualitySystem");
+        Product product = productDao.getProduct("qualitysystem");
         User user = (User) userDao.loadUserByUsername("unit_test");
         user.setEmail("test@glority.com");
 
@@ -63,7 +63,7 @@ public class ScoreOwnerMappingManagerImplTest extends AbstractBaseTest {
     @Test
     public void testGetScoreOwnerDirectScore() {
         String parentScoreName = "BUILD SCORE";
-        Product product = productDao.getProduct("QualitySystem");
+        Product product = productDao.getProduct("qualitysystem");
         User user = (User) userDao.loadUserByUsername("unit_test");
         user.setEmail("test@glority.com");
 

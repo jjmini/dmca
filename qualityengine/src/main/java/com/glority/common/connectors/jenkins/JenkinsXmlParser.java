@@ -63,7 +63,7 @@ public final class JenkinsXmlParser {
     /**
      * parse jenkins build detail.the build detail page is like
      * http://jenkins.glority
-     * .com:8080/job/Glority_QualitySystem_Build/294/api/xml. this parser only
+     * .com:8080/job/Glority_qualitysystem_Build/294/api/xml. this parser only
      * for Jenkins ver. 1.471.
      * 
      * @param url
@@ -156,7 +156,7 @@ public final class JenkinsXmlParser {
 
     /**
      * parse jenkins job. the page is like
-     * http://jenkins.glority.com:8080/job/Glority_QualitySystem_Build/api/xml
+     * http://jenkins.glority.com:8080/job/Glority_qualitysystem_Build/api/xml
      * this parser only for Jenkins ver. 1.471.
      * 
      * @param url

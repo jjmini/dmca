@@ -4,23 +4,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using QualitySystem.Models;
+using qualitysystem.Models;
 using AutoMapper;
-using QualitySystem.ViewModels;
+using qualitysystem.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace QualitySystem.Controllers.API
+namespace qualitysystem.Controllers.API
 {
     [Authorize]
     [Route("api/model")]
     public class ModelController : Controller
     {
         private ILogger<LocationController> _logger;
-        private IQualitySystemRepository _repository;
+        private IqualitysystemRepository _repository;
 
-        public ModelController(IQualitySystemRepository repository, ILogger<LocationController> logger)
+        public ModelController(IqualitysystemRepository repository, ILogger<LocationController> logger)
         {
             _repository = repository;
             _logger = logger;
