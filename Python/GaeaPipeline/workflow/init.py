@@ -2,7 +2,7 @@
 import os
 import shutil
 
-import qualitySystem
+import qualitysystem
 
 from gaeautils import Workflow
 from gaeautils import bundle
