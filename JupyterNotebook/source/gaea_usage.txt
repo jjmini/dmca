@@ -1,0 +1,31 @@
+usage: Gaea.py [-h] [-w WORKDIR] -d DIRHDFS -s SAMPLELIST [-m MODE]
+               [-c CONFIG] [-j PROJECTID] [-n] [-q QUEUE] [-p PARTITION]
+               [-t {write,local,submit}] [-V]
+
+USAGE
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -w WORKDIR, --workdir WORKDIR
+                        working directory of the workflow. [default: '.']
+  -d DIRHDFS, --dirHDFS DIRHDFS
+                        hdfs work directory(When you use it in TH-1A,you must
+                        set it according lustre directory structure)
+  -s SAMPLELIST, --sample SAMPLELIST
+                        fq list or bam list or independent data list.
+  -m MODE, --mode MODE  samplelist mode:1,standard BGI data;2,independent raw
+                        data;3,bam data; 4,vcf data. [default: 1]
+  -c CONFIG, --config CONFIG
+                        user config file.
+  -j PROJECTID, --projectId PROJECTID
+                        project ID.
+  -n, --multi           multiSample in one batch to run. [default: False]
+  -q QUEUE, --queue QUEUE
+                        the queue of the job. [default: None]
+  -p PARTITION, --partition PARTITION
+                        the job partition. [default: None]
+  -t {write,local,submit}, --type {write,local,submit}
+                        1.write: just write run scripts; 2.local: run tasks on
+                        one local node; 3:submit: submit tasks to SGE
+                        [default: write]
+  -V, --version         show program's version number and exit

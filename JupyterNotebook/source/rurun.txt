@@ -1,0 +1,2 @@
+sample1	    APP1,APP2,APP3
+sample2	    APP1,APP2,APP3

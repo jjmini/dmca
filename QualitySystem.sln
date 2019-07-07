@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{977D4D5F-0198-4565-9746-B8AB5D105F74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B6B3AAF-8CFB-4B90-8ACD-A22A3EF8E182}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QualitySystem", "src\QualitySystem\QualitySystem.xproj", "{1D7770A4-9099-455B-9C21-E6C06B7BFA30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D7770A4-9099-455B-9C21-E6C06B7BFA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7770A4-9099-455B-9C21-E6C06B7BFA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7770A4-9099-455B-9C21-E6C06B7BFA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7770A4-9099-455B-9C21-E6C06B7BFA30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D7770A4-9099-455B-9C21-E6C06B7BFA30} = {977D4D5F-0198-4565-9746-B8AB5D105F74}
+	EndGlobalSection
+EndGlobal

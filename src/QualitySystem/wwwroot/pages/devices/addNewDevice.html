@@ -1,0 +1,70 @@
+﻿<div class="row">
+    <div class="col-lg-12">
+        <wait-cursor ng-show="vm.isBusy"></wait-cursor>
+        <div ng-show="vm.errorMessage" class="text-danger">{{vm.errorMessage}}</div>
+        <div ng-show="vm.successMessage" class="text-success">{{vm.successMessage}}</div>
+    </div>
+
+    <div class="col-lg-12">
+        <h3 class="text-center">Add New Device</h3>
+
+        <form novalidate name="addNewDeviceForm" ng-submit="vm.addNewDevice()" class="col-lg-8 col-lg-offset-2 table-bordered img-rounded">
+            <div class="form-group">
+                <label class="col-form-label">Type</label>
+                <div>
+                    <select name="type" ng-model="vm.newDevice.type" class="form-control">
+                        <option ng-repeat="type in vm.DeviceTypes" value="{{$index}}">{{type}}</option>
+                    </select>
+                    <!--<input class="form-control" type="text" name="type" ng-model="vm.newDevice.type" required>-->
+                    <span ng-show="addNewDeviceForm.type.$error.required" class="text-warning">Required</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-form-label">Serial Number</label>
+                <div>
+                    <input class="form-control" type="text" name="serialNumber" ng-model="vm.newDevice.serialNumber" required>
+                    <span ng-show="addNewDeviceForm.serialNumber.$error.required" class="text-warning">Required</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-form-label">Broken</label>
+                <div>
+                    <input class="form-control" type="checkbox" name="broken" ng-model="vm.newDevice.broken">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-form-label">Spare</label>
+                <div>
+                    <input class="form-control" type="checkbox" name="spare" ng-model="vm.newDevice.spare">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-form-label">Location</label>
+                <div>
+                    <select class="form-control" name="locationName" ng-model="vm.newDevice.locationName" required>
+                        <option ng-repeat="location in vm.locations" value="{{location.name}}">{{location.name}}</option>
+                    </select>
+                    <!--<input class="form-control" type="text" name="locationName" ng-model="vm.newDevice.locationName" required>-->
+                    <span ng-show="addNewDeviceForm.locationName.$error.required" class="text-warning">Required</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-form-label">Model</label>
+                <div>
+                    <select class="form-control" name="modelName" ng-model="vm.newDevice.modelName" required>
+                        <option ng-repeat="model in vm.models" value="{{model.name}}">{{model.name}}</option>
+                    </select>
+                    <!--<input class="form-control" type="text" name="modelName" ng-model="vm.newDevice.modelName" required>-->
+                    <span ng-show="addNewDeviceForm.modelName.$error.required" class="text-warning">Required</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-form-label"></label>
+                <div>
+                    <input class="btn btn-success" type="submit" value="Add" ng-disabled="addNewDeviceForm.$invalid">
+                    <a class="btn btn-primary" ng-href="devices">Back</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

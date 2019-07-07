@@ -1,0 +1,28 @@
+﻿<!-- Modal Update Location -->
+<div>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Update Location</h4>
+            </div>
+            <div class="modal-body">
+                <form novalidate name="updateLocationForm" class="table-bordered img-rounded">
+                    <div class="form-group">
+                        <label class="col-form-label">Location Name</label>
+                        <div>
+                            <input class="form-control" type="text" name="name" ng-model="vm.locationToEdit.name" required>
+                            <span ng-show="updateLocationForm.name.$error.required" class="text-warning">Required</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <input type="button" value="Done Editing" class="btn btn-success" data-dismiss="modal" ng-click="vm.UpdateLocation(vm.locationToEdit)" ng-disabled="updateLocationForm.$invalid">
+            </div>
+        </div>
+    </div>
+</div>

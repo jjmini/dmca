@@ -1,0 +1,29 @@
+├── QC
+│   └── sample1
+├── alignment
+│   └── sample1
+├── annotation
+│   └── variation
+│       └── sample1
+├── fq
+│   └── raw_data
+│       └── sample1
+├── raw_data
+│   └── fastq
+├── scripts
+│   ├── run.sh
+│   ├── gaea
+│   │   └── sample1
+│   │       └── APP.sh
+│   ├── standalone
+│   │   └── sample1
+│   │       └── APP.sh
+│   └── state
+│       ├── rerun.list
+│       ├── results.json
+│       └── state.json
+├── temp
+│   └── sample1
+└── variantion
+    └── genotype
+        └── sample1

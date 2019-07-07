@@ -1,0 +1,42 @@
+{
+    "analysis_flow": [], 
+    "file": {
+        "annoProtoclConfig": "", 
+        "cnvRegions": "", 
+        "region": "", 
+        "cnvAnnoConfig": "", 
+        "bamRelationList": "", 
+        "regionVariation": "", 
+        "newCnvConfig": ""
+    }, 
+    "hadoop": {
+        "bin": "/ifs4/ISDC_BD/HadoopCluster/compute-298d3fd5-9d16-4138-bb50-fc56daae8aaa/hadoop-0.20.2-cdh3u6/bin/hadoop", 
+        "streamingJar": "/ifs4/ISDC_BD/HadoopCluster/compute-298d3fd5-9d16-4138-bb50-fc56daae8aaa/hadoop-0.20.2-cdh3u6/contrib/streaming/hadoop-streaming-0.20.2-cdh3u6.jar", 
+        "input_format": "file", 
+        "fs_mode": "hdfs", 
+        "mapper_num": "112", 
+        "reducer_num": "112"
+    }, 
+    "ref": {
+        "normal": {
+            "soap2Index": "", 
+            "gaeaIndex": "/ifs4/ISDC_BD/GaeaProject/reference/hg19/GaeaIndex/ref_bn.list", 
+            "ref": "/ifs4/ISDC_BD/GaeaProject/reference/hg19/hg19.fasta", 
+            "bwaIndex": "/ifs4/ISDC_BD/GaeaProject/reference/hg19/hg19.fasta", 
+            "gaeaAlignIndex": ""
+        }
+    }, 
+    "Path": {
+        "prgDir": "/ifs4/ISDC_BD/GaeaProject/software", 
+        "modDir": ""
+    }, 
+    "init": {
+        "gzUploader": "GzUpload.jar", 
+        "multiUploader": "multi_uploader.pl"
+    }, 
+    "APP": {
+        "program": "programName",
+	"parameter" ""
+    }, 
+    ...
+}

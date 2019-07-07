@@ -1,0 +1,42 @@
+﻿<!-- Modal Add New Model -->
+<div>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Add New Model</h4>
+            </div>
+            <div class="modal-body">
+                <form novalidate name="addNewModelForm" class="table-bordered img-rounded">
+                    <div class="form-group">
+                        <label class="col-form-label">Model Name</label>
+                        <div>
+                            <input class="form-control" type="text" name="name" ng-model="vm.newModel.name" required>
+                            <span ng-show="addNewModelForm.name.$error.required" class="text-warning">Required</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Date Entered</label>
+                        <div>
+                            <input class="form-control" type="date" ng-model-options="{timezone:'UTC'}" name="date" ng-model="vm.newModel.dateEntered" required>
+                            <span ng-show="addNewModelForm.date.$error.required" class="text-warning">Required</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Page Number</label>
+                        <div>
+                            <input class="form-control" type="text" name="pageNumber" ng-model="vm.newModel.pageNumber" required>
+                            <span ng-show="addNewModelForm.pageNumber.$error.required" class="text-warning">Required</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <input type="button" value="Add" class="btn btn-success" data-dismiss="modal" ng-click="vm.AddNewModel(vm.newModel)" ng-disabled="addNewModelForm.$invalid">
+            </div>
+        </div>
+    </div>
+</div>

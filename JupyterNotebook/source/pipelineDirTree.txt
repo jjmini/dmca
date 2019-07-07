@@ -1,0 +1,34 @@
+.
+├── Gaea.py
+├── jobSubmit.py
+├── gaeaJobMonitor.py
+├── config
+│   └── default.json
+├── tools
+│   └── require_config.pl
+├── gaeautils
+│   ├── __init__.py
+│   ├── bundle.py
+│   ├── impldata.py
+│   ├── jobMonitor.py
+│   ├── parseApp.py
+│   ├── parseConfig.py
+│   ├── parseSampleList.py
+│   └── workflow.py
+└── workflow
+    ├── BGICGAnnotation.py
+    ├── HelloWorld.py
+    ├── alignment.py
+    ├── bamSort.py
+    ├── bamqc.py
+    ├── baserecal.py
+    ├── clean.py
+    ├── evaSNP.py
+    ├── evaVCF.py
+    ├── filter.py
+    ├── genotype.py
+    ├── graph.py
+    ├── init.py
+    ├── mergeVariant.py
+    ├── realignment.py
+    └── rmdup.py

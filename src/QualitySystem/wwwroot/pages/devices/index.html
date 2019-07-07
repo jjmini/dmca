@@ -1,0 +1,70 @@
+﻿<div class="row" ng-app="devicesRoutes">
+    <div class="col-lg-12">
+        <wait-cursor ng-show="vm.isBusy"></wait-cursor>
+        <div ng-show="vm.errorMessage" class="text-danger">{{vm.errorMessage}}</div>
+        <div ng-show="vm.successMessage" class="text-success">{{vm.successMessage}}</div>
+    </div>
+
+    <div class="col-lg-4 col-lg-offset-4 text-center">
+        <a href="/devices/add"><h4>Add New Device</h4><i class="glyphicon glyphicon-plus-sign fa-2x"></i></a>
+    </div>
+
+    <table class="table table-responsive table-striped">
+        <tr>
+            <th>Type</th>
+            <th>Serial Number</th>
+            <th>Broken</th>
+            <th>Spare</th>
+            <th>Components</th>
+            <th>location</th>
+            <th>model</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr ng-repeat="device in vm.devices">
+            <td>{{device.type}}</td>
+            <td>{{device.serialNumber}}</td>
+            <td>{{device.broken}}</td>
+            <td>{{device.spare}}</td>
+            <td>
+                <table class="table table-striped table-responsive">
+                    <tr>
+                        <th>Component</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr ng-repeat="component in device.components">
+                        <td>{{component.type}}</td>
+                        <td>{{component.description}}</td>
+                        <td>
+                            <a ng-click="vm.deleteComponent(device.id, component.id)"><i class="fa fa-remove fa-2x"></i></a>
+                            <a ng-click="vm.BeginComponentEditing(component.id)" data-toggle="modal" data-target="#editComponent"><i class="fa fa-edit fa-2x"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <a href="" ng-click="vm.BeginAddNewComponent(device.id)" data-toggle="modal" data-target="#addNewComponent">
+                                Add New Component
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>{{device.locationName}}</td>
+            <td>{{device.modelName}}</td>
+            <td>
+                <a ng-click="vm.deleteDevice(device.id)"><i class="fa fa-remove fa-2x"></i></a>
+                <a ng-click="vm.BeginDeviceEditing(device.id)" data-toggle="modal" data-target="#editDevice"><i class="fa fa-edit fa-2x"></i></a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<!-- Add new component modal -->
+<add-new-component class="modal fade" id="addNewComponent"></add-new-component>
+
+<!-- Edit existig component modal -->
+<edit-component class="modal fade" id="editComponent"></edit-component>
+
+<!-- Edit existig device modal -->
+<edit-device class="modal fade" id="editDevice"></edit-device>

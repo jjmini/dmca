@@ -1,0 +1,42 @@
+﻿<!-- Modal Update Model -->
+<div>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Update Model</h4>
+            </div>
+            <div class="modal-body">
+                <form novalidate name="updateModelForm" class="table-bordered img-rounded">
+                    <div class="form-group">
+                        <label class="col-form-label">Model Name</label>
+                        <div>
+                            <input class="form-control" type="text" name="name" ng-model="vm.modelToEdit.name" required>
+                            <span ng-show="updateModelForm.name.$error.required" class="text-warning">Required</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Date Entered</label>
+                        <div>
+                            <input class="form-control" type="date" ng-model-options="{timezone:'UTC'}" name="date" ng-model="vm.modelToEdit.dateEntered" required>
+                            <span ng-show="updateModelForm.date.$error.required" class="text-warning">Required</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Page Number</label>
+                        <div>
+                            <input class="form-control" type="text" name="pageNumber" ng-model="vm.modelToEdit.pageNumber" required>
+                            <span ng-show="updateModelForm.pageNumber.$error.required" class="text-warning">Required</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <input type="button" value="Done Editing" class="btn btn-success" data-dismiss="modal" ng-click="vm.UpdateModel(vm.modelToEdit)" ng-disabled="updateModelForm.$invalid">
+            </div>
+        </div>
+    </div>
+</div>

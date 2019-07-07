@@ -1,0 +1,3 @@
+#!/bin/bash
+source /hwfssz1/BIGDATA_COMPUTING/software/tools/GaeaPipeline/bin/activate
+/hwfssz1/BIGDATA_COMPUTING/software/tools/GaeaPipeline/bin/Gaea.py $*

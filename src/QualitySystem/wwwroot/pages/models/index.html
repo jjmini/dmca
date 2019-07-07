@@ -1,0 +1,36 @@
+﻿<div class="row">
+    <div class="col-lg-12">
+        <wait-cursor ng-show="vm.isBusy"></wait-cursor>
+        <div ng-show="vm.errorMessage" class="text-danger">{{vm.errorMessage}}</div>
+        <div ng-show="vm.successMessage" class="text-success">{{vm.successMessage}}</div>
+    </div>
+
+    <div class="col-lg-4 col-lg-offset-4 text-center">
+        <a href="" data-toggle="modal" data-target="#addNewModel"><h4>Add New Model</h4><i class="glyphicon glyphicon-plus-sign fa-2x"></i></a>
+    </div>
+
+    <table class="table table-responsive table-striped">
+        <tr>
+            <th>Model</th>
+            <th>Date entered</th>
+            <th>Page number</th>
+            <th>Actions</th>
+        </tr>
+
+        <tr ng-repeat="model in vm.models">
+            <td>{{model.name}}</td>
+            <td>{{model.dateEntered | date:"dd/MM/yyyy"}}</td>
+            <td>{{model.pageNumber}}</td>
+            <td>
+                <a ng-click="vm.DeleteModel(model.id)"><i class="fa fa-remove fa-2x"></i></a>
+                <a ng-click="vm.BeginModelEditing(model.id)" data-toggle="modal" data-target="#updateModel"><i class="fa fa-edit fa-2x"></i></a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<!-- Add new location modal -->
+<add-new-model class="modal fade" id="addNewModel"></add-new-model>
+
+<!-- Update location modal -->
+<update-model class="modal fade" id="updateModel"></update-model>

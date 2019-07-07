@@ -1,0 +1,37 @@
+﻿<!-- Modal Edit Exsting Component -->
+<div>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Edit Component</h4>
+            </div>
+            <div class="modal-body">
+                <form novalidate name="EditComponentForm" class="table-bordered img-rounded">
+                    <div class="form-group">
+                        <label class="col-form-label">Type</label>
+                        <div>
+                            <select name="newtype" ng-model="vm.componentToEdit.type" class="form-control">
+                                <option ng-repeat="type in vm.ComponentTypes" value="{{$index}}">{{type}}</option>
+                            </select>
+                            <span ng-show="EditComponentForm.newtype.$error.required" class="text-warning">Required</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Description</label>
+                        <div>
+                            <input class="form-control" type="text" name="componentToEditDescription" ng-model="vm.componentToEdit.description" required>
+                            <span ng-show="EditComponentForm.componentToEditDescription.$error.required" class="text-warning">Required</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <input type="button" value="Done Editing" class="btn btn-success" data-dismiss="modal" ng-click="vm.DoneComponentEditing()" ng-disabled="EditComponentForm.$invalid">
+            </div>
+        </div>
+    </div>
+</div>
