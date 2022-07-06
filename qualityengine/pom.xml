@@ -195,7 +195,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <dependency>
       <groupId>com.jcraft</groupId>
       <artifactId>jsch</artifactId>
-      <version>0.1.48</version>
+      <version>0.1.54</version>
     </dependency>
     <dependency>
       <groupId>net.sf.json-lib</groupId>
